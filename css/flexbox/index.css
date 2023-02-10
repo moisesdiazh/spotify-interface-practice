@@ -1,0 +1,44 @@
+@import './display-flex.css';
+@import './flex-order.css';
+@import './flex-direction.css';
+@import './flex-wrap.css';
+@import './flex.css';
+@import './justify-content.css';
+@import './align-items.css';
+
+
+
+
+
+
+:root {
+    --darkColor: #04001e;
+    --lightColor: #DFFBFF;
+    --colorPrimario: #DB086F;
+}
+
+body { 
+    background-color: var(--darkColor);
+    color: var(--lightColor);
+    font-family: Arial;
+}
+
+a {
+    color: var(--lightColor);
+}
+
+.wrapper {
+    max-inline-size: 64rem; /* 1024/16 */
+    margin: auto;
+}
+
+.box {
+    padding: 1rem;
+    border: 5px dashed var(--colorPrimario);
+    counter-increment: flex-items;
+}
+
+.box::after {
+    content: counter(flex-items);
+}
+

@@ -1,0 +1,14 @@
+.flexOrder {
+    display: flex;
+    gap: 5em; /* Espaciado */
+    
+}
+
+.flexOrder img {
+    border-radius: 50%;
+}
+
+.flexOrder:nth-child(odd) p { /* even es impar, odd es par */
+    border: 1px solid red;
+    order: -1;
+}

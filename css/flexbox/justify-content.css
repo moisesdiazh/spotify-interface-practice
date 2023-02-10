@@ -1,0 +1,64 @@
+/* PRIMER EJERCICIO */
+
+/* .justifyContent {
+    display: flex;
+    justify-content: flex-end; es para alineamiento space-between, space-evenly, space-around, flex-start y flex-end 
+    flex-wrap: wrap;
+    border: 1px solid red;
+    gap: 2rem;
+    flex-direction: column;
+    block-size: 1000px;
+    align-items: flex-start;
+} */
+
+/* cuando estamos en fila el flex-direction: row;  justify-content alinea en horizontal y align items en vertical*/
+
+/* cuando estamos en fila el flex-direction: column;  justify-content alinea en vertical y align items en horizontal */
+
+/* .justifyContent img:nth-of-type(1) { para seleccionar la primera imagen o un item en especifico
+    align-self: flex-end; para alinear un solo elemento en especifico se usa align-self 
+} */
+
+/* FIN PRIMER EJERCICIO */
+
+/* SEGUNDO EJERCICIO */
+.justifyContent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    gap: 2rem;
+
+}
+
+.spaceBetween {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.spaceBetween img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.spaceBetween ul {
+    display: flex; /* para alinear los items uno al lado del otro */
+    gap: 1rem;
+    list-style: none; /* para quitar los puntos de los li */
+    align-items: center; /* para centrar los li sin importar que sean strecht */
+    
+}
+
+.spaceBetween ul li a {
+    text-decoration: none;
+    
+}
+
+/* FIN SEGUNDO EJERCICIO */
+
+
+
+
+

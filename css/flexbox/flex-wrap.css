@@ -1,0 +1,6 @@
+.flexWrap {
+    display: flex;
+    overflow: auto;
+    /* flex-wrap: wrap; */
+     flex-flow: row-reverse wrap-reverse; /* el primero es el flow-direction y el segundo el flex-wrap */
+}

@@ -1,0 +1,33 @@
+.buttonIcon {
+    inline-size: 2.5rem; /* ancho */
+    block-size: 2.5rem; /* alto */
+    background: transparent;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: var(--gray10);
+}
+
+.buttonIcon.is-white { /* boton blanco */
+    background: var(--white); /* fondo */
+    color: var(--gray50); /* lo que va por adentro del boton */
+}
+
+.buttonIcon.is-primary { /* boton verde */
+    background: var(--primary); /* fondo */
+    color: var(--white); /* lo que va por adentro del boton */
+}
+
+.buttonIcon .icon-play { /* se usa mas que todo para botones de play, para que este centrado */
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+.buttonIcon:active { /* para hacer el efecto que se clickea el boton */
+    transform: scale(0.95);
+}
+
+.buttonIcon:hover:is([class*='is-']) { /* para hacer el efecto de sombra al boton */
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+}

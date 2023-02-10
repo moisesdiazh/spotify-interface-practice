@@ -1,0 +1,8 @@
+.displayFlex {
+    /* border: 1px solid yellow; debugger*/
+    display: flex;
+}
+
+.displayFlex .box +.box {
+     margin-inline-start: 1rem; /* margin-left, el .box +.box es que la caja siguiente agarre esos atributos  */
+}

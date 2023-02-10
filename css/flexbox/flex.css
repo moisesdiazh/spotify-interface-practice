@@ -1,0 +1,27 @@
+.flex {
+    display: flex;
+}
+
+.flex > * {
+    /* border: 1px solid red !important;
+    flex-grow: 2;
+    flex-basis: 100px;
+    padding: 1rem !important; */
+}
+
+.flex > div {
+    flex: 1; /* El elemento tomara todo el espacio disponible */
+}
+
+.flex > img {
+    inline-size: 400px;
+    flex-shrink: 0; /* esta en 1 por defecto, es la capacidad de achicamiento, si coloco 0 puede agarrar los 400px */
+}
+
+/* 
+.flex > p {
+    flex-grow: 1;
+    border: 1px solid red !important;
+    flex-basis: 50px;
+    
+} */

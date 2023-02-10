@@ -1,0 +1,16 @@
+/* colocando fonts en el proyecto */
+
+
+@font-face {
+    font-family: Avenir;
+    src: url('/flexbox-components/fonts/AvenirLTStd-Black.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url('/flexbox-components/fonts/AvenirLTStd-Roman.otf');
+    font-weight: normal;
+    font-style: normal;
+}

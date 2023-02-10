@@ -1,0 +1,8 @@
+.flexDirection {
+    display: flex;
+    flex-direction: column-reverse; /* column, row, column-reverse */
+    max-block-size: 200px;
+    overflow: auto; /* para genera un scroll interno en ese componente */
+    
+}
+
